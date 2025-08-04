@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Facebook Login Clone</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f0f2f5;
+    }
+
+    .container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .login-box {
+      background: white;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+      width: 360px;
+    }
+
+    .login-box h2 {
+      color: #1877f2;
+      text-align: center;
+      font-size: 28px;
+      margin-bottom: 20px;
+      font-family: Helvetica, sans-serif;
+    }
+
+    .login-box input[type="text"],
+    .login-box input[type="password"] {
+      width: 100%;
+      padding: 12px;
+      margin: 8px 0;
+      border: 1px solid #dddfe2;
+      border-radius: 6px;
+      font-size: 16px;
+    }
+
+    .login-box button {
+      width: 100%;
+      padding: 12px;
+      background: #1877f2;
+      border: none;
+      border-radius: 6px;
+      color: white;
+      font-size: 16px;
+      font-weight: bold;
+      cursor: pointer;
+      margin-top: 10px;
+    }
+
+    .login-box button:hover {
+      background: #165ecb;
+    }
+
+    .login-box a {
+      display: block;
+      text-align: center;
+      margin-top: 10px;
+      color: #1877f2;
+      text-decoration: none;
+      font-size: 14px;
+    }
+
+    .login-box a:hover {
+      text-decoration: underline;
+    }
+
+    hr {
+      margin: 20px 0;
+      border: none;
+      border-top: 1px solid #ccc;
+    }
+
+    .signup-button {
+      background: #42b72a;
+      margin-top: 10px;
+    }
+
+    .signup-button:hover {
+      background: #36a420;
+    }
+  </style>
+</head>
+<body>
+
+<div class="container">
+  <div class="login-box">
+    <h2>facebook</h2>
+    <input type="text" placeholder="Email address or phone number" />
+    <input type="password" placeholder="Password" />
+    <button>Log In</button>
+    <a href="#">Forgotten password?</a>
+    <hr />
+    <button class="signup-button">Create New Account</button>
+  </div>
+</div>
+
+</body>
+</html>
